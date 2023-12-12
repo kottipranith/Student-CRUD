@@ -1,0 +1,43 @@
+.card{
+    height: 300px;
+    width: 400px;
+    margin: 100px 400px 100px 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+}
+.content{
+    padding-top: 20px;
+    font-size: 33px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-feilds{
+    gap: 30px;
+}
+.text-feilds input{
+    width: calc(100% - 100px);
+    height: 30px;
+    margin-top: 30px;
+   
+}
+.text-feilds input:hover{
+    width: calc(100% - 90px);
+    height: 33px;
+}
+.btn{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn input{
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-color: rgb(80, 233, 80);
+    cursor: pointer;
+
+}

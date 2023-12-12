@@ -1,0 +1,32 @@
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.nav-icon{
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px ;
+}
+
+.nav-icon .bar{
+    background-color: white;
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+}
+
+.nav-name{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}
